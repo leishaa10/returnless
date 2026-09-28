@@ -1,0 +1,350 @@
+{
+  "feature_columns": [
+    "unit_price",
+    "quantity",
+    "order_value",
+    "month",
+    "day_of_week",
+    "is_weekend",
+    "product_prior_orders_log",
+    "product_prior_return_rate",
+    "product_avg_price_prior",
+    "has_history",
+    "Category__Bags & Totes",
+    "Category__Bathroom",
+    "Category__Christmas & Seasonal",
+    "Category__Garden & Outdoor",
+    "Category__General Gifts & Other",
+    "Category__Home Decor",
+    "Category__Jewellery & Accessories",
+    "Category__Kitchen & Dining",
+    "Category__Lighting & Candles",
+    "Category__Stationery & Cards",
+    "Category__Textiles & Cushions",
+    "Category__Toys & Games",
+    "CountryGroup__United Kingdom",
+    "CountryGroup__Germany",
+    "CountryGroup__France",
+    "CountryGroup__EIRE",
+    "CountryGroup__Spain",
+    "CountryGroup__Netherlands",
+    "CountryGroup__Belgium",
+    "CountryGroup__Switzerland",
+    "CountryGroup__Portugal",
+    "CountryGroup__Australia",
+    "CountryGroup__Other"
+  ],
+  "base_feature_columns": [
+    "unit_price",
+    "quantity",
+    "order_value",
+    "month",
+    "day_of_week",
+    "is_weekend",
+    "product_prior_orders_log",
+    "product_prior_return_rate",
+    "product_avg_price_prior",
+    "has_history"
+  ],
+  "categories": [
+    "Bags & Totes",
+    "Bathroom",
+    "Christmas & Seasonal",
+    "Garden & Outdoor",
+    "General Gifts & Other",
+    "Home Decor",
+    "Jewellery & Accessories",
+    "Kitchen & Dining",
+    "Lighting & Candles",
+    "Stationery & Cards",
+    "Textiles & Cushions",
+    "Toys & Games"
+  ],
+  "countries": [
+    "United Kingdom",
+    "Germany",
+    "France",
+    "EIRE",
+    "Spain",
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "Portugal",
+    "Australia",
+    "Other"
+  ],
+  "category_keywords": [
+    [
+      "Lighting & Candles",
+      [
+        "light",
+        "candle",
+        "lantern",
+        "lamp",
+        "tealight",
+        "t-light"
+      ]
+    ],
+    [
+      "Bags & Totes",
+      [
+        "bag",
+        "tote",
+        "purse",
+        "satchel"
+      ]
+    ],
+    [
+      "Kitchen & Dining",
+      [
+        "mug",
+        "cup",
+        "plate",
+        "bowl",
+        "kitchen",
+        "cutlery",
+        "teapot",
+        "jug",
+        "tin",
+        "cake",
+        "baking"
+      ]
+    ],
+    [
+      "Home Decor",
+      [
+        "frame",
+        "mirror",
+        "clock",
+        "vase",
+        "ornament",
+        "decoration",
+        "sign",
+        "hook",
+        "door"
+      ]
+    ],
+    [
+      "Stationery & Cards",
+      [
+        "card",
+        "notebook",
+        "pencil",
+        "pen",
+        "paper",
+        "stationery",
+        "gift tag",
+        "wrap"
+      ]
+    ],
+    [
+      "Toys & Games",
+      [
+        "toy",
+        "game",
+        "puzzle",
+        "doll",
+        "playing cards"
+      ]
+    ],
+    [
+      "Jewellery & Accessories",
+      [
+        "necklace",
+        "bracelet",
+        "earring",
+        "ring",
+        "jewel",
+        "hair"
+      ]
+    ],
+    [
+      "Textiles & Cushions",
+      [
+        "cushion",
+        "blanket",
+        "throw",
+        "apron",
+        "towel",
+        "curtain"
+      ]
+    ],
+    [
+      "Garden & Outdoor",
+      [
+        "garden",
+        "outdoor",
+        "plant pot",
+        "birdhouse"
+      ]
+    ],
+    [
+      "Christmas & Seasonal",
+      [
+        "christmas",
+        "santa",
+        "xmas",
+        "easter",
+        "halloween",
+        "valentine"
+      ]
+    ],
+    [
+      "Bathroom",
+      [
+        "bath",
+        "soap",
+        "towel"
+      ]
+    ]
+  ],
+  "default_category": "General Gifts & Other",
+  "non_product_codes": [
+    "AMAZONFEE",
+    "BANK CHARGES",
+    "C2",
+    "CRUK",
+    "DOT",
+    "GIFT",
+    "M",
+    "PADS",
+    "POST",
+    "S",
+    "m"
+  ],
+  "cold_start_return_rate": 0.0164,
+  "feature_importances": [
+    [
+      "product_prior_return_rate",
+      0.282555294312622
+    ],
+    [
+      "product_avg_price_prior",
+      0.1488723106390854
+    ],
+    [
+      "order_value",
+      0.1199789741929134
+    ],
+    [
+      "unit_price",
+      0.10733943098959096
+    ],
+    [
+      "quantity",
+      0.08810805553849627
+    ],
+    [
+      "day_of_week",
+      0.04772348528907156
+    ],
+    [
+      "product_prior_orders_log",
+      0.03772542168919824
+    ],
+    [
+      "CountryGroup__United Kingdom",
+      0.032565413950727616
+    ],
+    [
+      "is_weekend",
+      0.030515373932120834
+    ],
+    [
+      "month",
+      0.026254028761717722
+    ],
+    [
+      "CountryGroup__Germany",
+      0.013062295129081148
+    ],
+    [
+      "CountryGroup__EIRE",
+      0.009400901878647686
+    ],
+    [
+      "Category__Stationery & Cards",
+      0.008334889897022106
+    ],
+    [
+      "Category__Lighting & Candles",
+      0.006634865509620127
+    ],
+    [
+      "Category__Bags & Totes",
+      0.0064960555313309095
+    ],
+    [
+      "CountryGroup__Other",
+      0.005905540048387417
+    ],
+    [
+      "Category__Kitchen & Dining",
+      0.005822107512114331
+    ],
+    [
+      "Category__Home Decor",
+      0.00281080270633535
+    ],
+    [
+      "Category__General Gifts & Other",
+      0.002750988691034517
+    ],
+    [
+      "CountryGroup__Australia",
+      0.00256560966895697
+    ],
+    [
+      "Category__Jewellery & Accessories",
+      0.0025061729778025703
+    ],
+    [
+      "CountryGroup__Netherlands",
+      0.0024305692600227607
+    ],
+    [
+      "Category__Textiles & Cushions",
+      0.0017088984883640082
+    ],
+    [
+      "Category__Christmas & Seasonal",
+      0.0012957817643997312
+    ],
+    [
+      "CountryGroup__France",
+      0.0012842467287370535
+    ],
+    [
+      "CountryGroup__Spain",
+      0.00106927449613891
+    ],
+    [
+      "Category__Toys & Games",
+      0.000996937620125008
+    ],
+    [
+      "Category__Garden & Outdoor",
+      0.000970658334709416
+    ],
+    [
+      "has_history",
+      0.0007321817592396105
+    ],
+    [
+      "CountryGroup__Portugal",
+      0.0005572506858578077
+    ],
+    [
+      "CountryGroup__Belgium",
+      0.0003932600088159219
+    ],
+    [
+      "Category__Bathroom",
+      0.0003725850445083959
+    ],
+    [
+      "CountryGroup__Switzerland",
+      0.0002603369632041809
+    ]
+  ]
+}

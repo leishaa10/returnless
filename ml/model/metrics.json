@@ -1,0 +1,54 @@
+{
+  "dataset_rows_total": 536570,
+  "train_rows": 429256,
+  "test_rows": 107314,
+  "base_return_rate": 0.0164,
+  "random_forest": {
+    "accuracy": 0.8165,
+    "precision": 0.0396,
+    "recall": 0.5953,
+    "f1_score": 0.0743,
+    "roc_auc": 0.789,
+    "confusion_matrix": {
+      "labels": [
+        "Not Returned",
+        "Returned"
+      ],
+      "matrix": [
+        [
+          86834,
+          19153
+        ],
+        [
+          537,
+          790
+        ]
+      ]
+    }
+  },
+  "logistic_regression_baseline": {
+    "accuracy": 0.7179,
+    "precision": 0.027,
+    "recall": 0.6225,
+    "f1_score": 0.0517,
+    "roc_auc": 0.7254,
+    "confusion_matrix": {
+      "labels": [
+        "Not Returned",
+        "Returned"
+      ],
+      "matrix": [
+        [
+          76216,
+          29771
+        ],
+        [
+          501,
+          826
+        ]
+      ]
+    }
+  },
+  "model_selected": "RandomForestClassifier",
+  "selection_reason": "Random Forest outperformed the Logistic Regression baseline on ROC-AUC / F1 on the held-out (most recent 20% of transactions) test set, handles the mixed numeric + one-hot categorical features without scaling, and exposes feature_importances_ for explainability."
+}

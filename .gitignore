@@ -1,0 +1,12 @@
+# Runtime-generated - recreated automatically on first server start
+returnless.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
